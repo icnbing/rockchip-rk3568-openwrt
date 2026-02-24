@@ -15,7 +15,7 @@ on:
       releases_branch:
         description: "Select the releases branch"
         required: false
-        default: "openwrt:24.10.5"
+        default: "immortalwrt:24.10.4"
         type: choice
         options:
           - openwrt:24.10.5
@@ -25,7 +25,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "nsy-g68-plus"
         type: choice
         options:
           - all
@@ -216,7 +216,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.12.y_6.18.y"
+        default: "6.6.y"
         type: choice
         options:
           - 5.10.y
